@@ -4,7 +4,7 @@ body{
 }
 
 body{
-	background-image: url("C:\\Users\\minny\\Desktop\\Junmin-lu-diater-ram\\ten-principles-for-good-design-assignment\\ten-principles-for-good-design-assignment\\site\\img\\dieterrams.jpg");
+	background-image: url("../img/dieterrams.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -21,9 +21,8 @@ body{
 	width: 9%;
 	height: 290px;
 	background-color: #eeeeee;
-	margin-left: 9px; 
+	margin-left: 9px;
 	overflow: hidden;
-	position: relative;
 }
 
 div img{
@@ -35,8 +34,8 @@ div img{
   height: 300px;
   overflow: hidden;
   position: fixed;
-  bottom: 0px;
-  left:0px;
+  bottom: 0;
+  left:0;
   width: 10%
 }
 
@@ -46,7 +45,7 @@ div img{
   position: absolute;
   bottom: -240px;
   height: 100%;
-  
+
   transition: all 0.5s ease;
 }
 .card_content h3 {
@@ -69,13 +68,13 @@ div img{
 }
 
 p{
-	margin-top: 0em;
-	font-family: 'Ubuntu', san-seif;
+	margin-top: 0;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 11px;
 	line-height: 15px;
 }
 h1{
-	margin-bottom: 0em;
+	margin-bottom: 0;
 	font-family: 'Lora', serif;
 }
 
@@ -83,5 +82,3 @@ h3{
 	font-family: 'Lora', serif;
 	text-align: center;
 }
-
-
